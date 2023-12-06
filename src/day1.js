@@ -1,5 +1,4 @@
-
-const session = '53616c7465645f5f9a36d86564e42413634637ce69f5d12d5200f4dc821654b3e793dc5d14de52dcaf8b626248c8803dc0f65761daabfb449494e2653a0bfbea'; // "*COOKIE LOGIN SESSION AT https://adventofcode.com/2023/day/1/input*";
+const session = "*COOKIE LOGIN SESSION AT https://adventofcode.com/2023/day/1/input*";
 
 /**
  * @param {String[]} tokensArr 
@@ -93,7 +92,7 @@ const formNumbersArrayFromTokensArray = (tokensArr) => {
           }
         }
       }
-      
+
       if (!lastNum) {
         if (!isNaN(rightSymbNum)) {
           lastNum = rightSymbNum;
