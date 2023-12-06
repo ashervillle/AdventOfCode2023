@@ -1,9 +1,9 @@
 const express = require("express");
-const { test } = require('./src/app');
+const { day1Solution } = require('./src/day1');
 const app = express();
 const port = 5252;
 
 app.listen(port, () => {
   console.log(`Listening at ${port}`);
-  test();
+  day1Solution();
 });
