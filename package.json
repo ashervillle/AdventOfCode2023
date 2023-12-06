@@ -1,0 +1,17 @@
+{
+  "name": "AdventOfCode2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "NODE_ENV=development nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
