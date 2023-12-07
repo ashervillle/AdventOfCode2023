@@ -1,4 +1,4 @@
-const session = "*COOKIE LOGIN SESSION AT https://adventofcode.com/2023/day/2/input*";
+const session = "*COOKIE LOGIN SESSION AT https://adventofcode.com/2023/day/3/input*";
 
 function extractNumsWithAdjacentSymbols(tokensArr) {
   const numsToSum = [];
